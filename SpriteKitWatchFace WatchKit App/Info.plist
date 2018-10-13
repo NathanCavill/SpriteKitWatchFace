@@ -19,14 +19,14 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>97</string>
+	<string>104</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.highcaffeinecontent.SpriteKitWatchFace</string>
+	<string>com.nathancavill.SpriteKitWatchFace</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

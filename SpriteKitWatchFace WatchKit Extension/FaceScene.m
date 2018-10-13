@@ -83,12 +83,12 @@ CGFloat workingRadiusForFaceOfSizeWithAngle(CGSize faceSize, CGFloat angle)
 	if (self) {
 		
 		self.faceSize = (CGSize){184, 224};
-
+// Change the style of the watch face
 		self.theme = [[NSUserDefaults standardUserDefaults] integerForKey:@"Theme"];
-		self.useProgrammaticLayout = YES;
-		self.useRoundFace = YES;
-		self.numeralStyle = NumeralStyleAll;
-		self.tickmarkStyle = TickmarkStyleAll;
+		self.useProgrammaticLayout = NO;
+		self.useRoundFace = NO;
+		self.numeralStyle = NumeralStyleNone;
+		self.tickmarkStyle = TickmarkStyleNone;
 		self.showDate = YES;
 		
 		[self refreshTheme];
